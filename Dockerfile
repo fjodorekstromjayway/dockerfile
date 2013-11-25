@@ -16,5 +16,5 @@ RUN apt-get install -y software-properties-common
 RUN add-apt-repository -y ppa:chris-lea/node.js
 RUN apt-get install -y nodejs
 RUN cd streamflow
-RUN npm install -g yo grunt-cli bower
+RUN npm install
 
