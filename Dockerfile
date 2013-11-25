@@ -15,6 +15,7 @@ RUN mkdir streamflow
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository -y ppa:chris-lea/node.js
 RUN apt-get install -y nodejs
+RUN ln -s /usr/bin/node /usr/bin/nodejs
 RUN cd streamflow
 RUN npm install
 
